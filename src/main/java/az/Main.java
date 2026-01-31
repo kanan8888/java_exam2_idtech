@@ -10,11 +10,8 @@ public class Main {
     public static void main(String[] args) {
 
         var sc = new Scanner(System.in);
-        int choice;
-
-
         var service = new EmployeeManagementService();
-
+        int choice;
 
         do {
             printMenu();
